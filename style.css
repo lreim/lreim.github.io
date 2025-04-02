@@ -9,16 +9,40 @@ body {
     color: #f6f1e1;
     background-color: #550303;
 }
-.right-links {
-    display: flex; /* Flexbox aktivieren */
-    justify-content: flex-end; /* Links nach rechts ausrichten */
-    margin-top: 20px; /* Optional, um etwas Abstand von oben zu geben */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Zeilenumbruch aktivieren, wenn der Platz zu eng wird */
+    padding: 20px;
 }
+
+/* Hauptinhalt */
+.content {
+    flex: 1; /* Der Hauptinhalt nimmt den verfügbaren Platz ein */
+    margin-right: 20px; /* Abstand zwischen Inhalt und Sidebar */
+}
+
+/* Sidebar für Links */
+.sidebar {
+    width: 200px; /* Breite der Sidebar */
+    background-color: #f4f4f4; /* Hintergrundfarbe der Sidebar */
+    padding: 10px;
+    border-radius: 8px; /* Abgerundete Ecken */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Keine Aufzählungszeichen */
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px; /* Abstand zwischen den Links */
+}
+
 header img {
-    position: absolute;
-    top: 10px;
-    left: 10px; 
-    width: 100px; /* Passe die Größe des Logos nach Bedarf an */
+    width: 100px;
+    display: block;  /* Für den Fall, dass das Bild neben dem Text sein soll */
+    margin: 0 auto;
 }
 
 
