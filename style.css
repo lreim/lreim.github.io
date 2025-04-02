@@ -1,3 +1,5 @@
+/* General */
+
 body {
     /* Center content */
     width: 80%;
@@ -9,42 +11,8 @@ body {
     color: #f6f1e1;
     background-color: #550303;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Zeilenumbruch aktivieren, wenn der Platz zu eng wird */
-    padding: 20px;
-}
 
-/* Hauptinhalt */
-.content {
-    flex: 1; /* Der Hauptinhalt nimmt den verfügbaren Platz ein */
-    margin-right: 20px; /* Abstand zwischen Inhalt und Sidebar */
-}
-
-/* Sidebar für Links */
-.sidebar {
-    width: 200px; /* Breite der Sidebar */
-    background-color: #f4f4f4; /* Hintergrundfarbe der Sidebar */
-    padding: 10px;
-    border-radius: 8px; /* Abgerundete Ecken */
-}
-
-.sidebar ul {
-    list-style-type: none; /* Keine Aufzählungszeichen */
-    padding: 0;
-}
-
-.sidebar li {
-    margin-bottom: 10px; /* Abstand zwischen den Links */
-}
-
-header img {
-    width: 100px;
-    display: block;  /* Für den Fall, dass das Bild neben dem Text sein soll */
-    margin: 0 auto;
-}
-
+/* Links */
 
 a {
     color: inherit; /* Make link color the same as normal text */
@@ -54,4 +22,15 @@ a {
   
 a:hover {
     border-bottom: 1px solid currentColor; /* Change to a solid underline on hover */
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
 }
