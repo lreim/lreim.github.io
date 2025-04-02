@@ -9,10 +9,13 @@ body {
     color: #f6f1e1;
     background-color: #550303;
 }
+
+
 header img {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 10px; 
+    width: 100px; /* Passe die Größe des Logos nach Bedarf an */
 }
 
 
