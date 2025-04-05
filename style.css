@@ -10,6 +10,8 @@ body {
 
     color: #f6f1e1;
     background-color: #550303;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.8;
 }
 
 /* Links */
@@ -18,6 +20,8 @@ a {
     color: inherit; /* Make link color the same as normal text */
     text-decoration: none; /* Remove default underline */
     border-bottom: 1px dotted currentColor; /* Apply a dotted underline */
+    font-family: sans-serif;
+    line-height: 2.0;
 }
   
 a:hover {
