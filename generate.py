@@ -1,54 +1,13 @@
 import os
 import shutil
 
-TEMPLATE = """<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lissy's website</title>
-</head>
-<body>
-    <table>
-        <tr style="vertical-align: top;">
-            <td>
-                <a href="index.html">
-                    <img src="logo.png" alt="Logo" width="100px" style="text-decoration: none;"/>
-                  </a>  
-            </td>
-            <td>
-{}
-            </td>
-            <td>
-                <ul>
-                    <li><a href="index.html">Welcome</a></li>
-                    <li><a href="About me.html">About me</a></li>
-                    <li><a href="https://gedankenwelten.substack.com">My blog</a></li>
-                    <li><a href="mailto:lissy@lre.im">My email</a></li>
-                    <li><a href="https://www.linkedin.com/in/lissy-c-reim-1622242a7">LinkedIn</a></li>
-                </ul>
-                <ul>
-                    <li><a href="Piano.html">Piano</a></li>
-                    <li><a href="photography.html">Photography</a></li>
-                    <li><a href="swimming.html">Swimming</a></li>
-                    <li><a href="dancing.html">Dancing</a></li>   
-                </ul>
-            </td>
-        </tr>
-    </table>
+template = ""
 
-    <footer>
-        <p>&copy; 2025 Lissy Reim</p>
-        <p><small>With contributions by <a href="https://thasso.xyz/">Thassilo Schulze</a></small></p>
-    </footer>
-
-</body>
-</html>
-"""
+with open('template.html', 'r', encoding='utf-8') as template_file:
+    template = template_file.read()
 
 def render_template(page_content):
-    return TEMPLATE.format(page_content)
+    return template.format(page_content)
 
 directory_path = 'pages/'
 output_dir = 'build/'
