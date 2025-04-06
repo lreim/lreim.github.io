@@ -6,9 +6,6 @@ template = ""
 with open('template.html', 'r', encoding='utf-8') as template_file:
     template = template_file.read()
 
-def render_template(page_content):
-    return template.format(page_content)
-
 directory_path = 'pages/'
 output_dir = 'build/'
 resources_dir = 'resources/'
@@ -25,7 +22,7 @@ for filename in os.listdir(directory_path):
     if os.path.isfile(file_path):
         with open(file_path, 'r', encoding='utf-8') as page_file:
             content = page_file.read()
-            complete_page = render_template(content)
+            complete_page = template.format(page_content)
             with open(output_file_path, 'x', encoding='utf-8') as output_file:
                 output_file.write(complete_page)
         print(f'Rendered {file_path} to {output_file_path}')
