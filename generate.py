@@ -21,8 +21,7 @@ for filename in os.listdir(directory_path):
 
     if os.path.isfile(file_path):
         with open(file_path, 'r', encoding='utf-8') as page_file:
-            content = page_file.read()
-            complete_page = template.format(page_content)
+            complete_page = template.format(page_file.read())
             with open(output_file_path, 'x', encoding='utf-8') as output_file:
                 output_file.write(complete_page)
         print(f'Rendered {file_path} to {output_file_path}')
