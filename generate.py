@@ -6,7 +6,7 @@ template = ""
 with open('template.html', 'r', encoding='utf-8') as template_file:
     template = template_file.read()
 
-directory_path = 'pages/'
+directory_path = 'templates/'
 output_dir = 'build/'
 resources_dir = 'resources/'
 
