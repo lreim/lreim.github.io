@@ -7,10 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <style>
+        body {
+            background-color: #3a1d09;
+            color: #4f2c1d;
+        }
+
+        nav a,
+        nav a:visited,
+        .footer .menu-link,
+        .footer .menu-link:visited {
+            color: #630011;
+            text-decoration: none;
+        }
+    </style>
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
     <link href='{{ site.baseurl }}/feed.xml' rel='alternate' type='application/atom+xml'>
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
+    <link rel="preload" as="image" href="{{ site.baseurl }}/images/background_photo.pdf.jpg">
     <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>

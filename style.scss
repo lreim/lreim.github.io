@@ -45,9 +45,10 @@
 
 :root {
     --text-color: #4f2c1d;
-    --background-color: #e8ccac;
+    --background-color: #3a1d09;
+    --background-edge-color: #cfb68d;
     --link-color: #630011;
-    --link-hover-color: #3a4132;
+    --link-hover-color: #485639;
 }
 
 html {
@@ -57,7 +58,10 @@ html {
 
 body {
     -webkit-font-smoothing: antialiased;
-    background: var(--background-color);
+    background:
+        linear-gradient(rgba(254, 217, 174, 0.2), rgba(255, 177, 82, 0.2)),
+        url("/images/background_photo.pdf.jpg") center / cover fixed no-repeat;
+    background-color: var(--background-color);
     color: var(--text-color);
     counter-reset: sidenote-counter;
     font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -341,8 +345,6 @@ figure {
 .featured-posts-row {
     margin: 0 auto;
     max-width: 980px;
-    position: relative;
-    left: calc(-12.5% / 2);
     width: 100%;
 }
 
@@ -380,6 +382,7 @@ figure {
     background-color: rgba(79, 44, 29, 0.15);
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 14px 28px rgba(79, 44, 29, 1);
     background-size: cover;
     border-radius: 0.4rem;
     display: flex;
@@ -389,7 +392,19 @@ figure {
     overflow: hidden;
     padding: 1.5rem;
     position: relative;
+    transition: box-shadow 180ms ease, transform 180ms ease;
     width: 100%;
+}
+
+.home-menu-card a:hover .featured-post,
+.home-menu-card a:focus-visible .featured-post,
+.post-card a:hover .featured-post,
+.post-card a:focus-visible .featured-post {
+    box-shadow:
+        0 0 18px rgb(255, 250, 239),
+        0 0 38px rgba(255, 245, 224, 0.40),
+        0 18px 32px rgba(79, 44, 29, 0.24);
+    transform: translateY(-3px);
 }
 
 .featured-post::before {
@@ -456,6 +471,15 @@ nav {
 
         a,a:visited {
             text-decoration: none;
+            transition: color 160ms ease, text-shadow 160ms ease;
+        }
+
+        a:hover,
+        a:focus-visible {
+            text-shadow:
+                0 0 10px rgb(255, 255, 255),
+                0 0 18px rgba(255, 245, 224, 0.9),
+                0 0 28px rgba(255, 245, 224, 0.7);
         }
     }
 }
