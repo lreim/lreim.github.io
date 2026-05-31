@@ -8,6 +8,22 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <style>
+        @font-face {
+            font-family: "et-book";
+            src: url("/fonts/et-book-roman-line-figures.woff") format("woff");
+            font-style: normal;
+            font-weight: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "et-book";
+            src: url("/fonts/et-book-display-italic-old-style-figures.woff") format("woff");
+            font-style: italic;
+            font-weight: normal;
+            font-display: swap;
+        }
+
         html {
             background:
                 linear-gradient(rgba(254, 217, 174, 0.2), rgba(255, 177, 82, 0.2)),
@@ -18,6 +34,41 @@
         body {
             background-color: transparent;
             color: #4f2c1d;
+            font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        }
+
+        h1,h2,h3,h4,h5,h6 {
+            font-style: italic;
+            font-weight: normal;
+            line-height: 1;
+            margin: 0;
+            text-transform: capitalize;
+        }
+
+        h2 {
+            color: #630011;
+            font-size: 2.2rem;
+            margin-top: 4.2rem;
+        }
+
+        .site-title-block {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+        }
+
+        .site-title-block .title {
+            margin-top: 0.6rem;
+        }
+
+        .site-logo {
+            display: block;
+            height: 120px;
+            margin: 0;
+            max-width: none;
+            transform: none;
+            width: 120px;
         }
 
         nav a,
@@ -33,6 +84,9 @@
     <link href='{{ site.baseurl }}/feed.xml' rel='alternate' type='application/atom+xml'>
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
     <link rel="preload" as="image" href="{{ site.baseurl }}/images/Firefly-2.jpg">
+    <link rel="preload" as="image" href="{{ site.baseurl }}/images/logo-big.png">
+    <link rel="preload" as="font" href="{{ site.baseurl }}/fonts/et-book-roman-line-figures.woff" type="font/woff" crossorigin>
+    <link rel="preload" as="font" href="{{ site.baseurl }}/fonts/et-book-display-italic-old-style-figures.woff" type="font/woff" crossorigin>
     <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>

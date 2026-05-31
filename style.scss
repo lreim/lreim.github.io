@@ -129,6 +129,26 @@ h1 { font-size: 3.2rem; font-style: normal; margin-top: 2.6rem; color:var( --lin
 h2 { font-size: 2.2rem; margin-top: 4.2rem; color:var( --link-color)}
 h3 { font-size: 1.7rem; margin-top: 2.6rem; color:var( --text-color)}
 
+.site-title-block {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.site-title-block .title {
+    margin-top: 0.6rem;
+}
+
+.site-logo {
+    display: block;
+    height: 120px;
+    margin: 0;
+    max-width: none;
+    transform: none;
+    width: 120px;
+}
+
 p,table,blockquote,pre,img,hr,.mini-note,ul li,ol li {
     box-sizing: border-box;
     max-width: 100%;
@@ -584,6 +604,11 @@ nav {
         max-width: 100%;
         transform: none;
         width: 100%;
+    }
+
+    .site-logo {
+        height: 120px;
+        width: 120px;
     }
 
     nav {
