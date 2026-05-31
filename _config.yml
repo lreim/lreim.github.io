@@ -1,11 +1,8 @@
 ###########
 # site.title
 
-title: ET-Jekyll Theme
-description: A minimal Jekyll theme inspired by Tufte CSS
-url: "https://et-jekyll.netlify.app"
-host: 0.0.0.0
-
+title: Lissy's Little Life 
+description: A brief history of my life
 
 #########################
 # more settings
@@ -27,7 +24,7 @@ sass:
 
 baseurl: ""
 permalink: pretty
-timezone: America/New_York
+timezone: Germany/Berlin
 future: false
 
 exclude:

@@ -8,8 +8,15 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <style>
+        html {
+            background:
+                linear-gradient(rgba(254, 217, 174, 0.2), rgba(255, 177, 82, 0.2)),
+                url("/images/Firefly-2.jpg") center / cover fixed no-repeat;
+            background-attachment: fixed;
+        }
+
         body {
-            background-color: #3a1d09;
+            background-color: transparent;
             color: #4f2c1d;
         }
 
@@ -25,7 +32,7 @@
     <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
     <link href='{{ site.baseurl }}/feed.xml' rel='alternate' type='application/atom+xml'>
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
-    <link rel="preload" as="image" href="{{ site.baseurl }}/images/background_photo.pdf.jpg">
+    <link rel="preload" as="image" href="{{ site.baseurl }}/images/Firefly-2.jpg">
     <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
