@@ -30,3 +30,4 @@ future: false
 exclude:
 - README.md
 - LICENSE.md
+- side_projects.md
