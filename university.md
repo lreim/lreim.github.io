@@ -6,4 +6,4 @@ description: Come along with me
 date: 2026-04-11 (last updated)
 ---
 
-Here I post videos. 
+Here I'll post videos soon. 

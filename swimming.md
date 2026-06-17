@@ -2,6 +2,7 @@
 layout: default
 excerpt_separator: <!--more-->
 title: Swimming
+subtitle: A part of my life in the water
 description: A part of my life in the water
 date: 2026-04-11 (last updated)
 ---
