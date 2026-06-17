@@ -5,6 +5,7 @@ title: About me
 description: A quick overview of who I might be
 ---
 
+<H2>A quick overview of who I might be</H2>
 ![Ich](/images/Ich.jpg)
 
 Hi, that's me :)

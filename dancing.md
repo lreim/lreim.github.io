@@ -6,6 +6,8 @@ description: About my passion for dancing
 date: 2026-04-11 (last updated)
 ---
 
+<H2>About my passion for dancing</H2>
+
 ![Dancing](/images/dancing.jpg)
 
 

@@ -5,6 +5,9 @@ title: Side Projects
 description: Trying out different things 
 date: 2026-06-08 (last updated)
 ---
+
+<H2>Trying out different things</H2>
+
 Idee: mache zu jedem Projekt ein Video, wo ich es kurz vorstelle/erkläre, evtl sogar schon zwischendurch Videos aufnehmen zu dem Progress. 
 
 - Sewing clothes

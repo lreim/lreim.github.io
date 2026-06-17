@@ -1,11 +1,12 @@
 ---
 layout: default
 excerpt_separator: <!--more-->
-title: Swimming
-subtitle: A part of my life in the water
+title: Swimming 
 description: A part of my life in the water
 date: 2026-04-11 (last updated)
 ---
+
+<H2>A part of my life in the water</H2>
 
 ![Swimming](/images/swimming.jpg)
 

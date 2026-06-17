@@ -6,6 +6,4 @@ description: Dunno why
 date: 2018-01-14
 ---
 
-hi ich bin Lissy
-
-WEr bist du
+Not sure what this is for yet. 

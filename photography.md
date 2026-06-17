@@ -6,6 +6,8 @@ description: A few sneak peaks of my pics passion
 date: 2026-04-11 (last updated)
 ---
 
+<H2>A few sneak peeks of my pics passion</H2>
+
 ![Photo](/images/photo_pic.jpg)
 
 
