@@ -38,8 +38,10 @@ Here is one example:
 If you are interested in more, follow <a href= "https://www.instagram.com/throughlissys.lens/">this path</a>. 
 ![Photo](/images/photo_ex1.jpg)
 ![Photo2](/images/photo_ex2.jpg)
+![Photo2](/images/photo_ex3.jpg)
 ![Photo3](/images/Shooting_pic.jpg)
 ![Photo4](/images/creative_portrait.jpg)
+
 
 
 
