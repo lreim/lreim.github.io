@@ -37,8 +37,11 @@ And I changed my view froom believing that depth is always the most important th
 
 So, a few of my passions:
 I used to play the <a href="piano.md">piano</a> for a long time.
+
 I've been <a href="swimming.md">swimming</a> for as long as I can remember.
+
 I'm passionate about <a href="photography.md">photography</a> — especially of the sky (not deep-sky yet, but someday), macro  photography and artsy portraits. 
+
 And I'm deeply into <a href="https://gedankenwelten.substack.com">writing poetry</a> — reflective, thoughtful writing, full of questions and personal emotions.
 I question myself a lot. Reflect on what moves my mind, what I struggle with, what I feel about the world, and how I see it. From physics to philosophy (even though it stayed more personal and less historical)
 If you see yourself in this, feel free to take a look at my writing. Let your thoughts float, resonate, or even rebel against mine — that's what makes thinking fun.
