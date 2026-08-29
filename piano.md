@@ -28,7 +28,7 @@ You start to see progress more quickly, which keeps you motivated.
 And then, playing music becomes something relaxing, something expressive, something deeply personal.
 
 I'm now trying to bring more of that back into my life, because art and creative expression have become too rare in our everyday routines.
-But they're important: they let you feel, think, recharge, express yourself, and challenge yourself in another kind of life.
+But they're important: they let you feel, think, express yourself, and challenge yourself.
 
 Here are some of my favourite pieces, some of which I played:
 
@@ -42,6 +42,6 @@ Here are some of my favourite pieces, some of which I played:
 - **Johann Nepomuk Hummel**: *Piano Trio in F major, Op. 22, III. Rondo alla Turca*  
   Danke an mein Trio!
 - **Johannes Brahms**: *6 Klavierstücke, Op. 118, No. 3, Ballade in G minor*  
-  Danke, Theo! Hast du absolut fantastisch gespielt.
+  Danke, Theo! Das hast du absolut fantastisch gespielt.
 - **Johannes Brahms**: *6 Klavierstücke, Op. 118, No. 2, Intermezzo in A major*  
   Danke, Theo! Ebenso toll!
